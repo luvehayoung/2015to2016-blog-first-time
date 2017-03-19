@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<title>hy's portfolio-workstory</title>
+<link rel="stylesheet" href="css/reset.css" >
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/animate.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<style>
+@font-face {
+  font-family: 'BenguiatGothicStd-Heavy';
+  src: url('webfont/BenguiatGothicStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('webfont/BenguiatGothicStd-Heavy.otf')  format('opentype'),
+	     url('webfont/BenguiatGothicStd-Heavy.woff') format('woff'), url('webfont/BenguiatGothicStd-Heavy.ttf')  format('truetype'), url('webfont/BenguiatGothicStd-Heavy.svg#BenguiatGothicStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YDIYGO110-KSCpc-EUC-H';
+  src: url('webfont/YDIYGO110-KSCpc-EUC-H.eot?#iefix') format('embedded-opentype'),  url('webfont/YDIYGO110-KSCpc-EUC-H.woff') format('woff'), url('webfont/YDIYGO110-KSCpc-EUC-H.ttf')  format('truetype'), url('webfont/YDIYGO110-KSCpc-EUC-H.svg#YDIYGO110-KSCpc-EUC-H') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.header_wrap .header ul li a{text-decoration:none;}
+.section_header_wrap{color:rgb(51,51,51); background:url(img/sky1.jpg) 0px -990px;}
+.section_header_contents{font-weight:bold; width:590px; height:110px; font-size:12px; line-height:15px; margin-left:600px;}
+.section_header_contents span{font-size:25px;display:block; margin-top:20px; line-height:35px; font-family:'BenguiatGothicStd-Heavy',cursive;}
+body {font-size:15px; font-family:"YDIYGO110-KSCpc-EUC-H", cursive;}
+form{clear:both; margin-top:70px; margin-bottom:50px;}
+label{font-family: 'BenguiatGothicStd-Heavy'; line-height:30px; width:100px;}
+
+input#name, input#email{width:400px; height:28px; margin-left:20px; margin-bottom:15px;border:none; border-bottom:1px solid #dddddd; padding-left:20px;}
+input:focus{outline:none;}
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.footer_wrap{margin-bottom:0px;}
+</style> 
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+	$(function(){
+		
+	
+
+	});
+
+
+
+</script>
+
+</head> 
+<body>
+
+<!-- about me시작-->
+<div id="workstory">
+	<div class="header_wrap">
+	
+		<div class="header   box_width">
+			<h1 class="logo">
+				<a href="index.html">
+                <img src="img/logo.png" width="55" height="55">
+                </a>
+            </h1>
+			<ul class="menu">
+				<li class="menu01"><a href="index.html">about me</a></li>
+				<li class="menu02"><a href="workstory.html">workstory</a></li>
+				<li class="menu03"><a href="portfolio.html">portfolio</a></li>
+				<li class="menu04"><a href="contact.html">contact</a></li>
+			</ul>
+			
+		</div>
+	
+	</div>
+
+	<div class="section_wrap">
+	    <div class="section_header_wrap">
+			<div class="section_header box_width">
+				<div class="section_header_contents">
+                    <span>Thank you for contacting me!</span>
+				</div>
+			</div>
+		</div>
+		<div class="section box_width">
+            <form action="mail.php" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text"  id="name" placeholder="성함을 입력해주세요" name="name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" id="email" placeholder="email주소를 입력해주세요" name="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Title</label>
+                <textarea class="form-control" name="title" rows="1" placeholder="제목을 입력해주세요" ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" rows="10"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        
+		</div>
+	</div>
+
+
+	<div class="footer_wrap">
+		<div class="footer   box_width">
+			<p class="thank">Thank you for visiting my website.</p>
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>
+

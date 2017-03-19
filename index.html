@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<title>Hy's portfolio</title>
+<link rel="stylesheet" href="css/reset.css" >
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/index.js"></script>
+<style>
+@font-face {
+  font-family: 'BenguiatGothicStd-Heavy';
+  src: url('webfont/BenguiatGothicStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('webfont/BenguiatGothicStd-Heavy.otf')  format('opentype'),
+	     url('webfont/BenguiatGothicStd-Heavy.woff') format('woff'), url('webfont/BenguiatGothicStd-Heavy.ttf')  format('truetype'), url('webfont/BenguiatGothicStd-Heavy.svg#BenguiatGothicStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YDIYGO110-KSCpc-EUC-H';
+  src: url('webfont/YDIYGO110-KSCpc-EUC-H.eot?#iefix') format('embedded-opentype'),  url('webfont/YDIYGO110-KSCpc-EUC-H.woff') format('woff'), url('webfont/YDIYGO110-KSCpc-EUC-H.ttf')  format('truetype'), url('webfont/YDIYGO110-KSCpc-EUC-H.svg#YDIYGO110-KSCpc-EUC-H') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+    
+/*main css 시작*/
+body { overflow:hidden; font-family:"YDIYGO110-KSCpc-EUC-H", cursive;}
+#main{width:100%; height:100%; position:fixed; z-index:100; }
+.door{position:absolute; width:50%; height:100%;}
+#leftdoor{background-color:rgba(2,201,201,1); float:left; left:0;}
+#rightdoor{background-color:rgba(2,201,201,1);  float:right; right:0;}
+#contents_wrap{position:absolute; width:1000px; height:500px; 
+	left:50%; top:50%; margin-left:-500px; margin-top:-250px;}
+.contents{position:absolute;}
+
+
+#logo{left:41%; top:5%; width:18%; height:auto;}
+
+.intro_wrap{left:50%; top:50%; margin-left:-285px; width:570px; height:60px; overflow:hidden; margin-top:10px; }
+.intro_wrap ul{}
+.intro_wrap ul li{float:left; width:60px; height:60px; overflow:hidden;}
+.intro_wrap ul li.intro_blank{width:30px;}
+.intro_i {background:url("img/IMHAYOUNG.gif");}
+.intro_m {background:url("img/IMHAYOUNG.gif"); background-position:-60px 0px;}
+.intro_blank {background:url("img/IMHAYOUNG.gif"); background-position:-120px 0px;}
+.intro_h {background:url("img/IMHAYOUNG.gif"); background-position:-180px 0px;}
+.intro_a {background:url("img/IMHAYOUNG.gif"); background-position:-240px 0px;}
+.intro_y {background:url("img/IMHAYOUNG.gif"); background-position:-300px 0px;}
+.intro_o {background:url("img/IMHAYOUNG.gif"); background-position:-360px 0px;}
+.intro_u {background:url("img/IMHAYOUNG.gif"); background-position:-420px 0px;}
+.intro_n {background:url("img/IMHAYOUNG.gif"); background-position:-480px 0px;}
+.intro_g {background:url("img/IMHAYOUNG.gif"); background-position:-540px 0px;}
+
+
+#introduce{left:50%; top:60%; margin-left:-250px; text-align:center; width:500px; height:30px; }
+
+
+#viewport{left:25%; top:70%; width:150px;  color:rgb(51,51,51); font-family:'BenguiatGothicStd-Heavy',cursive; text-align:center; line-height:20px; font-size:18px;}
+#viewport:hover{color:white;}
+
+#contact{right:30%; top:70%; width:120px; color:rgb(51,51,51); font-family:'BenguiatGothicStd-Heavy',cursive;  text-align:center; line-height:20px; font-size:18px;}
+#contact:hover{color:white;}
+
+#scroll{left:50%; bottom:5%; width:5%; margin-left:-2.5%; cursor:pointer;}
+/*main css끝*/
+
+/*about me css시작*/
+#about_me{overflow-x:hidden;}
+
+/*section자기소개부분*/
+.section_header_wrap{color:rgb(51,51,51); background:url(img/sky1.jpg) 0px -800px;}
+.section_header_contents{font-weight:bold; width:590px; height:110px; font-size:12px; line-height:15px; margin-left:600px;}
+.section_header_contents span{font-size:25px; line-height:35px; font-family:'BenguiatGothicStd-Heavy',cursive;}
+.self_introduce{margin-top:70px;}
+.section h1{font-size:30px; color:rgb(51,51,51); margin-left:10%; margin-top:100px;}
+.left_con{width:300px;  float:left; margin-top:60px; margin-left:30px;}
+.left_con img{border:3px solid rgb(51,51,51)}
+.right_con{width:450px; height:500px; float:right; margin-top:50px; margin-right:30px; }
+.right_con h1{font-family:'BenguiatGothicStd-Heavy',cursive; font-size:40px; margin-bottom:100px; margin-left:100px;}
+h1.other_say_title{font-family:'BenguiatGothicStd-Heavy',cursive; font-size:40px; margin-bottom:20px;}
+.line{border-bottom:2px solid rgba(2,201,201,1);  margin-top:20px;}    
+.line p{float:left; margin-left:10px; color:rgb(51,51,51); margin-bottom:5px;}
+.line p:first-child{width:150px; }
+/*section자기소개끝*/
+
+/*slide시작*/
+
+/*slide끝*/
+
+
+
+
+
+
+
+/*about me css끝*/
+
+</style> 
+
+<script>
+	
+</script>
+
+</head> 
+<body>
+<!--main 시작-->
+<div id="main">
+	<div id="leftdoor" class="door"></div>
+	<div id="rightdoor" class="door"></div>
+	<div id="contents_wrap">
+
+		
+		
+		<img id="logo" class="contents animated bounceInLeft" src="img/logo.png">
+		
+		<div class="intro_wrap contents animated fadeIn">
+			<ul>
+				<li class="intro_i"></li>
+				<li class="intro_m"></li>
+				<li class="intro_blank"></li>
+				<li class="intro_h"></li>
+				<li class="intro_a"></li>
+				<li class="intro_y"></li>
+				<li class="intro_o"></li>
+				<li class="intro_u"></li>
+				<li class="intro_n"></li>
+				<li class="intro_g"></li>
+			</ul>
+		</div>
+		<!--
+		<div id="introduce" class="contents">
+			I'm a student who is majoring computer science in college.<br/> 
+			I want to be a webpublisher and programmer.
+		</div>
+		-->
+		<a id="viewport" class="contents animated fadeIn" href="portfolio.html">
+			view portfolio
+		</a>
+		<a id="contact" href="contact.html" class="contents animated fadeIn">
+			contact me
+		</a>
+	
+		<img id="scroll" class="contents animated fadeIn" src="img/scroll.gif">
+	</div>
+</div>
+
+<!--main끝-->
+
+
+<!-- about me시작-->
+<div id="about_me">
+	<!--header시작-->
+	<div class="header_wrap">
+		<div class="header   box_width">
+			<h1 class="logo">
+                <a href="index.html">
+				<img src="img/logo.png" width="55" height="55">
+                </a>
+			</h1>
+			<ul class="menu">
+				<li class="menu01"><a href="index.html">about me</a></li>
+				<li class="menu02"><a href="workstory.html">workstory</a></li>
+				<li class="menu03"><a href="portfolio.html">portfolio</a></li>
+				<li class="menu04"><a href="contact.html">contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--header끝-->
+	
+	<script>
+        $(document).ready(function() {
+
+            /* Every time the window is scrolled ... */
+            $(window).scroll( function(){
+
+                /* Check the location of each desired element */
+                $('.hideme').each( function(i){
+
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                    /* If the object is completely visible in the window, fade it it */
+                    if( bottom_of_window > bottom_of_object ){
+
+                        $(this).animate({'opacity':'1'},500);
+                        $(this).addClass('animated').addClass('fadeInUp');    
+                    }
+
+                }); 
+
+            });
+
+        });
+    </script>
+
+	<!--section시작-->
+	<div class="section_wrap">
+		<div class="section_header_wrap">
+			<div class="section_header box_width">
+				<div class="section_header_contents">
+					<span>Hello!</span><br/>
+					안녕하세요. 저는 이 포트폴리오 사이트를 만든 이하영입니다.<br/> 
+					프로그래밍 공부를 하던 중에 웹 퍼블리싱이라는 것에 관심을<br/>
+					가지게 되어 지금까지 공부하게 되었습니다. 지금은 javascript와<br/>
+					jquery, 반응형 웹페이지에 관심이 많으며 계속해서 공부해나갈<br/>			것입니다. 
+				</div>
+			</div>
+		</div>
+		<div class="section box_width">
+			<!--자기소개-->
+            
+			<div class="self_introduce box_width clearfix">
+				
+                <div class="left_con">
+					<img src="img/my_image.jpeg" width="300" hegiht="auto">	
+				</div>
+				<div class="right_con">
+                    <h1>I am...</h1>
+					<div class="line clearfix">
+                        <p>NAME</p>
+                        <p>이하영</p>
+                    </div>
+                    <div class="line clearfix">
+                        <p>DATE OF BIRTH</p>
+                        <p>1995.05.05</p>
+                    </div>
+                    <div class="line clearfix">
+                        <p>EDUCATION</p>
+                        <p>서울시립대학교 컴퓨터과학부 휴학중</p>
+                    </div>
+                    <div class="line clearfix">
+                        <p>MOTTO</p>
+                        <p>급할 때일수록 천천히</p>
+                    </div>
+                   
+				</div>
+
+			</div>
+			<!--자기소개끝-->
+			<!--other say시작-->
+			<h1 class="hideme other_say_title">other say</h1>
+			<div class="other_say hideme">
+				
+				<div class="slider">
+			        <div class="slide-viewer">
+			         	<div class="slide-group">
+			            	<div class="slide slide-1">
+			            		<ul>
+                                    <li>
+                                        <div class="profile_imgwrap">
+                                            <img src="img/jungmin.jpg" width="100">
+                                        </div>
+                                        <p class="name">이정민</p>
+                                        <p>하영이는 맡은 일을 누구보다 열심히 하면서, 주변을 편하게해주지만 쉽게 휩쓸리지는 않는 자기의 주장있는 사람입니다.</p>
+                                    </li>
+			            		    <li>
+                                        <div class="profile_imgwrap">
+                                            <img src="img/sangjin.jpg" width="100">
+                                        </div>
+                                        <p>천상진</p>
+                                        <p>하영이와 같은과 동기로 몇년간 같이 지내면서 느낀 것은 하영이는 언제나 한결같이 변함이 없는 사람이라는 것입니다.</p>
+                                    </li>
+			            		    <li>
+                                        <div class="profile_imgwrap">
+                                            <img src="img/somyeong.jpg" width="100">
+                                        </div>
+                                        <p>신소명</p>
+                                        <p>진로에 대해서 고민을 많이하던 하영이가 오랫동안 웹퍼블리싱을 공부하는 모습을 보면서 이제는 자기가 갈 길을 찾은 것 같아서 응원해주고 싶습니다.</p>
+                                    </li>
+			            		</ul>
+			            	</div>
+			            	<div class="slide slide-2">
+			                	<ul>
+                                    <li>
+                                        <div class="profile_imgwrap">
+                                            <img src="img/yeojeung.jpg" height="100">
+                                        </div>
+                                        <p>김여정</p>
+                                        <p>건강을 챙기면서 공부했으면 좋겠습니다.</p>
+                                    
+                                    </li>
+			            		    <li>
+                                        <div class="profile_imgwrap">
+                                            <img src="img/hwajeung.jpg" height="100">
+                                        </div>
+                                        <p>신화정</p>
+                                        <p>옆에 있으면 매력이 느껴지는 사람입니다.</p>
+                                    </li>
+			            		    <li>
+                                        <div class="profile_imgwrap">
+                                            <img src="img/eunsu.jpg" height="100">
+                                        </div>
+                                        <p>유은수</p>
+                                        <p>하영이는 정말 재밌고 어디서든 사람들의 시선을 끌수있는 사람입니다.</p>
+                                    </li>
+			            		</ul>
+			            	</div>
+			            	
+			            </div>
+			        </div>
+			    	<div class="slide-buttons"></div>
+			    </div>
+				
+
+			</div>
+			<!--other say끝-->
+		</div>
+	</div>
+	<!--section끝-->
+
+	<!--footer시작-->
+	<div class="footer_wrap">
+		<div class="footer box_width">
+			<p class="thank">Thank you for visiting my website.</p>
+		</div>
+	</div>
+	<!--footer끝-->
+</div>
+<!--about me 끝-->	
+
+
+</body>
+</html>
+

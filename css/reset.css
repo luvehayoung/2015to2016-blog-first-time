@@ -1,0 +1,31 @@
+@charset utf-8;
+
+/* 기본 태그 */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl, dt, dd,
+/* 인라인타입* /
+span, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, i, 
+/* 폼태그 */
+fieldset, form, label, legend, button,
+/* 테이블 태그 */
+table, caption, tbody, tfoot, thead, tr, th, td, 
+/* HTML5 태그 */
+article, nav, article, section, aside, canvas, details, figcaption, figure, hgroup, menu, summary, time, mark, audio, video 
+
+{
+  margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline; background:transparent;
+}
+
+body { font-family:NanumGothic, "나눔 고딕"; line-height:1em; }
+
+html,body { width:100%; height:100%; }
+article, nav, article, section, aside, canvas, menu, details, figcaption, figure, footer { display:block;  }
+
+ul, ol, li { list-style:none; }
+
+a { margin:0; padding:0; font-size:100%; text-decoration:none; vertical-align:baseline; color:#fff; background:transparent; }
+
+img { vertical-align:top; }
+
+table { border-collapse:collapse; border-spacing:0; }
+
+input { margin:0;  padding:0; box-sizing:content-box; vertical-align:top; appearance:none; border-radius:0; }

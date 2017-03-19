@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<title>KSNET</title>
+<link rel="stylesheet" href="css/reset.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+	jQuery(function(){
+
+	});
+</script>
+
+</head>
+<body>
+<div class="header_view">
+<!--background로이미지 깔린다-->
+	<div class="header_img_wrap">
+		<img src="img/visual1.jpg">
+		<img src="img/visual2.jpg">
+		<img src="img/visual3.jpg">
+		<img src="img/visual4.jpg">
+	</div>
+	
+	<div class="menu_wrap">
+		<!--menu_bar 시작-->
+		<div class="menu_bar clearfix">
+			<h1><img src="img/logo.gif" alt="KSNET"/></h1>
+            <div class="menu_a_wrap">
+            <a href="#" class="menu1 menu"><img src="img/gnb_off_img1.gif" alt="카드결제"></a>
+            <a href="#" class="menu2 menu"><img src="img/gnb_off_img2.gif" alt="전자결제"></a>
+            <a href="#" class="menu3 menu"><img src="img/gnb_off_img3.gif" alt="전자금융"></a>
+            <a href="#" class="menu4 menu"><img src="img/gnb_off_img4.gif" alt="부가서비스"></a>
+            <a href="#" class="menu5 menu"><img src="img/gnb_off_img5.gif" alt="고객지원"></a>
+            <a href="#" class="menu6 menu"><img src="img/gnb_off_img6.gif" alt="회사소개"></a>
+            </div>
+        </div>
+		<!--menu_bar 끝-->
+		<script>
+            $(function(){
+                $(".menu_a_wrap, .sub_menu_bar").on("mouseenter",function(){
+                    $(".menu_wrap").stop().animate({height:"383px"},200);
+                    $(".menu_bar").css("borderBottom","1px solid black");
+                    
+                });
+                $(".menu_a_wrap, .sub_menu_bar").on("mouseleave",function(){
+                    $(".menu_wrap").stop().animate({height:"75px"},200);
+                    
+                });
+               
+                
+                $(".menu1, .sub_menu1").on("mouseenter",function(){
+                    $(".sub_menu_img").css("marginLeft","0px");
+                })
+                $(".menu2, .sub_menu2").on("mouseenter",function(){
+                    $(".sub_menu_img").css("marginLeft","-164px");
+                })
+                $(".menu3, .sub_menu3").on("mouseenter",function(){
+                    $(".sub_menu_img").css("marginLeft","-328px");
+                })
+                $(".menu4, .sub_menu4").on("mouseenter",function(){
+                    $(".sub_menu_img").css("marginLeft","-492px");
+                })
+                $(".menu5, .sub_menu5").on("mouseenter",function(){
+                    $(".sub_menu_img").css("marginLeft","-656px");
+                })
+                $(".menu6, .sub_menu6").on("mouseenter",function(){
+                    $(".sub_menu_img").css("marginLeft","-820px");
+                })
+                
+                
+                
+            })
+        </script>
+        <!--sub_menu_bar 시작-->
+		<div class="sub_menu_bar clearfix">
+            <div class="sub_menu_img_wrap">
+                <div class="sub_menu_img">
+                    <img src="img/twoD_img1.gif" alt="카드결제">
+                    <img src="img/twoD_img2.gif" alt="전자결제">
+                    <img src="img/twoD_img3.gif" alt="전자금융">
+                    <img src="img/twoD_img4.gif" alt="부가서비스">
+                    <img src="img/twoD_img5.gif" alt="고객지원">
+                    <img src="img/twoD_img6.gif" alt="회사소개">
+                </div>
+            </div>
+            
+            <div class="sub_menu_wrap">   
+                <ul class="sub_menu1 sub_menu">
+                    <li><img src="img/twoD_icon.png" alt=".">KSVAN소개</li>
+                    <li><img src="img/twoD_icon.png" alt=".">제품소개</li>
+                    <li><img src="img/twoD_icon.png" alt=".">대리점조회</li>
+                </ul>
+                <ul class="sub_menu2 sub_menu">
+                    <li><img src="img/twoD_icon.png" alt=".">KSPAY소개</li>
+                    <li><img src="img/twoD_icon.png" alt=".">결제내역조회</li>
+                    <li><img src="img/twoD_icon.png" alt=".">결제데모</li>
+                </ul>
+                <ul class="sub_menu3 sub_menu">
+                    <li><img src="img/twoD_icon.png" alt=".">펌뱅킹</li>
+                    <li><img src="img/twoD_icon.png" alt=".">뱅킹플러스</li>
+                    <li><img src="img/twoD_icon.png" alt=".">자금관리솔루션</li>
+                    <li><img src="img/twoD_icon.png" alt=".">SWIFT</li>
+                    <li><img src="img/twoD_icon.png" alt=".">기타 전자금융</li>
+                </ul>
+                <ul class="sub_menu4 sub_menu">
+                    <li><img src="img/twoD_icon.png" alt=".">마이장부</li>
+                    <li><img src="img/twoD_icon.png" alt=".">K Member#</li>
+                    <li><img src="img/twoD_icon.png" alt=".">자국통화결제(DCC)</li>
+                    <li><img src="img/twoD_icon.png" alt=".">TAX REFUND</li>
+                    <li><img src="img/twoD_icon.png" alt=".">KSPOS솔루션</li>
+                    <li><img src="img/twoD_icon.png" alt=".">주류구매카드</li>
+                    <li><img src="img/twoD_icon.png" alt=".">전자외상장부</li>
+                    <li><img src="img/twoD_icon.png" alt=".">물품대금서비스</li>
+                    <li><img src="img/twoD_icon.png" alt=".">기타서비스</li>
+                </ul>
+                <ul class="sub_menu5 sub_menu">
+                    <li><img src="img/twoD_icon.png" alt=".">공지사항</li>
+                    <li><img src="img/twoD_icon.png" alt=".">자주 하는 질문</li>
+                    <li><img src="img/twoD_icon.png" alt=".">자료실</li>
+                    <li><img src="img/twoD_icon.png" alt=".">문의하기</li>
+                </ul>
+                <ul class="sub_menu6 sub_menu">
+                    <li><img src="img/twoD_icon.png" alt=".">회사소개</li>
+                    <li><img src="img/twoD_icon.png" alt=".">채용정보</li>
+                    <li><img src="img/twoD_icon.png" alt=".">재무정보</li>
+                </ul>
+            </div>    
+		</div>
+		<!--sub_menu_bar 끝-->
+	</div>
+	
+	<!--header_img_con 시작-->
+    <div class="header_img_con_wrap">
+        <div class="header_img_con">
+            <img src="img/mainR_control_left.png" alt="left">
+            <img src="img/mainR_control_play.png" alt="play">
+            <img src="img/mainR_control_stop.png" alt="stop">
+            <img src="img/mainR_control_right.png" alt="right">
+        </div>
+    </div>
+	<!--header_img_con 끝-->
+</div>
+
+
+<!--contents_wrap시작-->
+<div class="contents_wrap clearfix">
+	<div class="contents">
+		<div class="con_left_wrap">
+			<div class="con_left_top">
+				<img src="img/main_contents1.gif">
+				<img src="img/main_contents2.gif">
+			</div>
+			<div class="con_left_bot">
+				<img src="img/main_contents3.gif">
+			</div>
+		</div>	
+		<div class="con_right_view">
+			<div class="con_right">
+				<img src="img/main_contents4.gif" alt="">
+				<img src="img/main_contents5.gif" alt="">
+			</div>
+			<div class="con_controll_wrap">
+				<img class="off" src="img/contR_blt.png">
+				<img class="on" src="img/contR_blt_on.png">
+				<img class="left" src="img/contR_leftBt.png">
+				<img class="stop" src="img/contR_stop.png">
+				<img class="right" src="img/contR_right.png">
+			</div>
+		</div>
+		<div class="con_bot">
+			<img src="img/custom_Center1.gif" alt="고객센터 전화번호">
+			<img src="img/custom_Center2.gif" alt="온라인 결제 가입문의">
+		</div>
+	</div>
+</div>
+<!--contents_wrap끝-->
+<div class="footer_wrap">
+	<div class="footer">
+		<p>서울특별시 강남구 테헤란로 107길 11, 성보타워 5층 T.02.3420.5800 </p>
+		<p>ⓒ 2015 KSNET INC. ALL RIGHTS RESERVED.</p>
+	</div>
+</div>
+</body>
+</html>

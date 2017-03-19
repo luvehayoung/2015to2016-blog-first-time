@@ -1,0 +1,63 @@
+/*font*/
+@font-face {
+  font-family: 'BenguiatGothicStd-Heavy';
+  src: url('webfont/BenguiatGothicStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('webfont/BenguiatGothicStd-Heavy.otf')  format('opentype'),
+	     url('webfont/BenguiatGothicStd-Heavy.woff') format('woff'), url('webfont/BenguiatGothicStd-Heavy.ttf')  format('truetype'), url('webfont/BenguiatGothicStd-Heavy.svg#BenguiatGothicStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YDIYGO110-KSCpc-EUC-H';
+  src: url('webfont/YDIYGO110-KSCpc-EUC-H.eot?#iefix') format('embedded-opentype'),  url('webfont/YDIYGO110-KSCpc-EUC-H.woff') format('woff'), url('webfont/YDIYGO110-KSCpc-EUC-H.ttf')  format('truetype'), url('webfont/YDIYGO110-KSCpc-EUC-H.svg#YDIYGO110-KSCpc-EUC-H') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*common*/
+.screenout{display:block; width:0; height:0; overflow:hidden; text-indent:-9999px;}
+.hide{display:none}
+.clearfix:after{content:"."; display:block; clear:both; width:0; height:0; overflow:hidden;}
+.hideme
+{
+    opacity:0;
+}    
+body{color:rgb(51,51,51);}
+
+
+/*layout*/
+.box_width{width:960px; margin:0 auto;}
+
+
+
+
+
+/*header*/
+.header_wrap{width:100%; height:60px; background-color:#000000; z-index:100; }
+.header{}
+.header .logo{width:55px; height:55px; float:left; margin-left:20px; margin-top:4px;}
+.header .menu{width:450px; height:20px; float:right; margin-right:20px; margin-top:20px;}
+.header .menu li{float:left; width:100px; height:20px; margin-left:10px;  text-align:center; }
+
+.header .menu li a{color:white; font-size:15px;line-height:20px; font-family:'BenguiatGothicStd-Heavy',cursive;}
+.header .menu li a:hover{border-bottom:1px solid white;}*/
+
+/*section*/
+.section_wrap{width:100%; font-size:30px;}
+.section_header_wrap{width:100%;
+-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75); 
+margin-bottom:20px;
+}
+.section_header{height:120px; padding-top:10px;}
+.section{background-color:white; }
+
+
+/*footer*/
+.footer_wrap{width:100%; background-color:rgb(51,51,51); color:white; }
+.footer{}
+.footer p{width:270px; height:40px; margin-left:auto; margin-right:auto; line-height:35px; font-family:'BenguiatGothicStd-Heavy',cursive;}
+
+

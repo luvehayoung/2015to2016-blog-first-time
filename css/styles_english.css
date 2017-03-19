@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BenguiatGothicStd-Heavy';
+  src: url('webfont/BenguiatGothicStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('webfont/BenguiatGothicStd-Heavy.otf')  format('opentype'),
+	     url('webfont/BenguiatGothicStd-Heavy.woff') format('woff'), url('webfont/BenguiatGothicStd-Heavy.ttf')  format('truetype'), url('webfont/BenguiatGothicStd-Heavy.svg#BenguiatGothicStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

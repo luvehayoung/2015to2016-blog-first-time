@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  reset  */
+body,p,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,for,fieldset,input,button{margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6,input,button,th,td{font:12px/1.2 "돋움",dotum,Arial,sans-serif;}
+ul,ol,li{list-style:none;}
+img,fieldset{border:none; vertical-align:middle;}
+a{text-decoration:none; font-family:'Nanum Brush Script' }
+em,strong,address{font-style:normal; font-weight:normal; }
+hr{width:0;}
+
+
+
+/*  common  */
+.screenout{display:block; width:0; height:0; overflow:hidden; text-indent:-9999px;}
+.hide{display:none}
+.clearfix:after{content:"."; display:block; clear:both; width:0; height:0; overflow:hidden;}
+
+
+/*  layout  */
+.box_width{width:960px; margin:0 auto;}
+#header{height:170px; background:url('../img/headerPattern.png') #333333;}
+#topArea{background-color:#333;  height:30px;}
+#nav{width:680px; margin-top:30px;}
+#visual{}
+#irArea{height:40px; background-color:#333333;}
+#mainContents{position:relative; }
+#footer{width:960px; height:50px; padding-top:30px; }
+
+/*  header  */
+.t_menu{float:right; position:fixed; right:15%; }
+.t_menu li{display:inline; line-height:30px; padding:0 0 0 10px;}
+.t_menu li a{color:#fff;}
+.t_menu li:after{content:"|"; color:#fff; margin-left:15px;}
+.t_menu li:last-child {content:"";}
+.logo{float:left; width:59px; height:49px; background:url('../img/logo.png');}
+
+
+/* gnb */
+.gnb{position:relative; float:left; height:50px; z-index:100; }
+.gnb > li{float:left; width:120px; text-align:center; line-height:50px;}
+.gnb > li > a{color:#fff; font-weight:bold; font-size:20px;}
+.gnb > li > a:hover{color:#D71316;}
+
+.gnb .gnb_sub{width:120px; text-align:center; height:100px; background-color:#333333;  padding:30px 0 20px 0; }
+
+.gnb li:nth-child(4) .gnb_sub{height:170px;}
+.gnb .gnb_sub li{line-height:18px; margin-bottom:10px;}
+.gnb .gnb_sub li a{color:#ffffff;}
+.gnb .gnb_sub li a:hover{color:#AD0407;}
+
+
+/* footer  */
+
+#footer p{margin-left:5%; display:block; float:left; }
+#footer ul{float:right; margin-right:5%}
+#footer li{float:left; margin-right:10px; text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
